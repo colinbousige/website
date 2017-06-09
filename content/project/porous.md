@@ -29,13 +29,13 @@ caption = "Methane adsorbing in an amorphous porous carbon structure"
 
 <!-- MarkdownTOC -->
 
-- [Ongoing work: Transport in amorphous porous systems](#ongoing-work-transport-in-amorphous-porous-systems)
+- [Adsorption and transport in amorphous porous systems](#adsorption-and-transport-in-amorphous-porous-systems)
 - [Kerogens](#kerogens)
 - [Carbon peapods](#carbon-peapods)
 
 <!-- /MarkdownTOC -->
 
-### Ongoing work: Transport in amorphous porous systems
+### Adsorption and transport in amorphous porous systems
 I currently focus on the formalization of the tortuosity in amorphous porous systems. More details soon!
 
 ### Kerogens
