@@ -9,7 +9,7 @@ title = "Porous Materials and Confinement"
 summary = "Studying the effects of strong confinement on the physical properties of the adsorbed phases"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "CS07_P1.png"
+image_preview = "headers/CS07_P1wide.png"
 
 # Tags: can be used for filtering projects.
 tags = ["porous"]
