@@ -9,8 +9,8 @@ location = "Gramado, Brazil"
 selected = false
 math = true
 
-url_pdf = ""
-url_slides = "../pdf/Colin_Bousige-XVISBPMat2017.pdf"
+url_pdf = "../pdf/Colin_Bousige-XVISBPMat2017.pdf"
+url_slides = ""
 url_video = ""
 
 +++
