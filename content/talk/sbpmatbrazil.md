@@ -3,7 +3,7 @@ date = "2017-09-11T11:00:00"
 title = "High pressure study of graphene interaction with its environment "
 abstract = ""
 abstract_short = ""
-event = "Invited talk at XVISBPMat 2017"
+event = "Invited talk at [XVI SBPMat 2017](http://sbpmat.org.br/16encontro/home/index.php)"
 location = "Gramado, Brazil"
 
 selected = false
