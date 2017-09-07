@@ -21,9 +21,9 @@ In this aim, we have studied single-layer graphene [1] and isotopically labelled
 
 ---
 
-[1] Bousige et al., Nano Lett. 17, 21–27 (2017)
-[2] Frank et al., Nanoscale 6, 6363 (2014)
-[3] Proctor et al., Phys. Rev. B 80, 073408 (2009)
-[4] Nicolle et al., Nano Letters 11, 3564 (2011)
-[5] Filintoglou et al., Phys. Rev. B 88, 045418 (2013)
+[1] Bousige et al., Nano Lett. 17, 21–27 (2017)  
+[2] Frank et al., Nanoscale 6, 6363 (2014)  
+[3] Proctor et al., Phys. Rev. B 80, 073408 (2009)  
+[4] Nicolle et al., Nano Letters 11, 3564 (2011)  
+[5] Filintoglou et al., Phys. Rev. B 88, 045418 (2013)  
 
