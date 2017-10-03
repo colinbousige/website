@@ -23,13 +23,11 @@ defaultContentLanguageInSubdir = false
 [params]
   name = "Colin Bousige"
   role = "CNRS Researcher"
-  #organization = "Laboratoire Multimatériaux et Interfaces"
-  #organization_url = "http://lmi.cnrs.fr/"
-  organization = "Institut Lumière Matière"
-  organization_url = "http://ilm.univ-lyon1.fr/"
+  organization = "Laboratoire Multimatériaux et Interfaces"
+  organization_url = "http://lmi.cnrs.fr/"
   avatar = "portrait.jpg"
   email = "colin.bousige _at_ univ-lyon1.fr"
-  address = "Université Claude Bernard Lyon 1, Bâtiment Brillouin, 10 rue Ada Byron, 69622 Villeurbanne CEDEX, France"
+  address = "Université Claude Bernard Lyon 1, Bâtiment Chevreul, 6 rue Victor Grignard, 69622 Villeurbanne CEDEX, France"
   phone = "+334 72 43 14 03"
   skype = "colin.bousige"
 

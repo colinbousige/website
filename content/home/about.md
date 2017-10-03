@@ -51,4 +51,4 @@ weight = 1
 
 # About me
 
-Starting October 2017, I will be a CNRS researcher at the Laboratoire Multimatériaux et Interfaces in Lyon, principally working on the synthesis and the characterization of borophene. Apart from that, my interests include 1D and 2D nano-materials in general and carbon-based compounds in particular, as well as studying the effects of strong confinement in amorphous porous systems.
+Since October 2017, I am a CNRS researcher at the Laboratoire Multimatériaux et Interfaces (LMI) in Lyon, principally working on the synthesis and the characterization of borophene. Apart from that, my interests include 1D and 2D nano-materials in general and carbon-based compounds in particular, as well as studying the effects of strong confinement in amorphous porous systems.
