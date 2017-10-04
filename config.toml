@@ -23,7 +23,7 @@ defaultContentLanguageInSubdir = false
 [params]
   name = "Colin Bousige"
   role = "CNRS Researcher"
-  organization = "Laboratoire Multimatériaux et Interfaces"
+  organization = "Laboratoire des Multimatériaux et Interfaces"
   organization_url = "http://lmi.cnrs.fr/"
   avatar = "portrait.jpg"
   email = "colin.bousige _at_ univ-lyon1.fr"
