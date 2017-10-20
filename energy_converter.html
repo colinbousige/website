@@ -1,0 +1,134 @@
+<HTML>
+
+<HEAD>
+<TITLE>Energy Converter</TITLE>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--HIDE FROM OTHER BROWSERS
+
+//DEFINE METHODS
+function constants(conv) {
+    var numE = 8;
+          conv[0] = 1.000 ;
+// eV
+          conv[1] = 2.7211399E+01 ;
+// kJ/mol
+          conv[2] = 2.6255002E+03 ;
+// kcal/mol
+          conv[3] = conv[2]/4.184 ;
+// cm-1
+          conv[4] = 2.1947463E+05 ;
+// K
+          conv[5] = 3.1577709E+05 ;
+// J
+          conv[6] = 2.7211399E+01*1.60217657e-19 ;
+// nm
+          conv[7] = conv[4] ;
+            return numE;
+}
+
+function displayInfo(form,field) {
+// find field index
+    for (var i=0; i<=nfields; i++) {
+      if ( form.elements[i].name == field ) {
+        idx = i ;
+        break;
+      }
+    }
+// find number of characters in input string for significant figure functions
+    nchars = form.elements[idx].value.length +5;
+
+// calculate the base energy in Hartrees
+  if ( idx != 7) {
+   energy = form.elements[idx].value/conv[idx];
+  } else {
+   energy = 1e7/form.elements[idx].value/conv[idx];
+  }
+
+// convert to other units
+  for (var i=0; i<=nfields; i++) {
+    if ( i != idx && i!=7) {
+      form.elements[i].value = trunc(energy*conv[i],nchars) ;
+    }
+    if ( i != idx && i==7) {
+      form.elements[i].value = trunc(1e7/form.elements[4].value,nchars) ;
+    }
+  }
+  boltzman()
+}
+
+// Significant figure functions
+function ord(x) {
+   return Math.floor(Math.log(Math.abs(x+1e-35))/2.303)
+}
+// Truncate to n sign. figures
+function trunc(x,n) {
+   return Math.floor(x*Math.pow(10,-ord(x)+n-1)+.5)/Math.pow(10,-ord(x)+n-1)
+}
+
+// MAIN variable declarations
+ var energy = 0.000;
+ var nchars = 0;
+ var conv = new Array();
+ var nfields = constants(conv);
+
+// STOP HIDING FROM OTHER BROWSERS -->
+</SCRIPT>
+
+
+<style>
+h3 {text-align:center;}
+h1 {
+    text-align : center;
+    font-family: "SIMPSON";
+}
+form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+</style>
+</head>
+<body>
+
+</HEAD>
+
+<BODY>
+<br><br>
+<H1>Energy Units Converter</H1>
+<P>
+<center>
+<FORM NAME="Hartree" METHOD=POST>
+<table>
+<tr>
+  <td><INPUT TYPE="text" NAME="H" VALUE=0 onChange="displayInfo(this.form,this.name);">Hartrees</td><BR>
+</tr>
+<tr>
+  <td><INPUT TYPE="text" NAME="eV" VALUE=0 onChange="displayInfo(this.form,this.name);">eV</td><BR>
+</tr>
+<tr>
+  <td><INPUT TYPE="text" NAME="kJ/mol" VALUE=0 onChange="displayInfo(this.form,this.name);">kJ/mol</td><BR>
+</tr>
+<tr>
+  <td><INPUT TYPE="text" NAME="kcal/mol" VALUE=0 onChange="displayInfo(this.form,this.name);">kcal/mol</td><BR>
+</tr>
+<tr>
+  <td><INPUT TYPE="text" NAME="cm-1" VALUE=0 onChange="displayInfo(this.form,this.name);">cm<sup>-1</sup></td><BR>
+</tr>
+<tr>
+  <td><INPUT TYPE="text" NAME="K" VALUE=0 onChange="displayInfo(this.form,this.name);">K (equivalent temperature)</td><BR>
+</tr>
+<tr>
+  <td><INPUT TYPE="text" NAME="J" VALUE=0 onChange="displayInfo(this.form,this.name);">J</td><BR>
+</tr>
+<tr>
+  <td><INPUT TYPE="text" NAME="nm" VALUE=0 onChange="displayInfo(this.form,this.name);">nm</td><BR>
+</tr>
+</table>
+</FORM>
+</center>
+
+</BODY>
+
+</HTML>
