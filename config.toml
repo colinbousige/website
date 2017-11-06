@@ -27,7 +27,7 @@ defaultContentLanguageInSubdir = false
   organization_url = "http://lmi.cnrs.fr/"
   avatar = "portrait.jpg"
   email = "colin.bousige _at_ univ-lyon1.fr"
-  address = "Université Claude Bernard Lyon 1, Bâtiment Chevreul, 6 rue Victor Grignard, 69622 Villeurbanne CEDEX, France"
+  address = "Laboratoire des Multimatériaux et Interfaces, Université Claude Bernard Lyon 1, Bâtiment Chevreul, 6 rue Victor Grignard, 69622 Villeurbanne CEDEX, France"
   phone = "+334 72 43 36 22"
   skype = "colin.bousige"
 
@@ -171,7 +171,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "CV"
-  url = "pdf/Colin_Bousige-CV.pdf"
+  url = "#cv"
   weight = 6
 
 [[menu.main]]
