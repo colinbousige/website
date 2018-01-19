@@ -9,12 +9,13 @@ publication = "*J. Raman Spec.* __49__, 121–129 (2017)"
 publication_short = "*J. Raman Spec.* __49__, 121–129 (2017)"
 selected = true
 title = "Raman scattering studies of graphene under high pressure"
+url_pdf = "pdf/jrs5284.pdf"
 url_project = "http://onlinelibrary.wiley.com/doi/10.1002/jrs.5284/abstract;jsessionid=70BB3B74DF3929CDEDCF566A060343CE.f02t02"
 
 
 +++
 
-url_pdf = "pdf/jrs5284.pdf"
+
 <!-- url_slides = "#" -->
 <!-- url_video = "#" -->
 <!-- url_code = "#" -->
