@@ -2,7 +2,7 @@
 
 #baseurl = "https://colinbousige.github.io/"  # End your URL with a `/` trailing slash.
 title = "Colin Bousige"
-copyright = "&copy; 2017 Colin Bousige"
+copyright = "&copy; 2018 Colin Bousige"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
