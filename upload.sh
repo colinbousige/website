@@ -9,7 +9,7 @@ MESSAGE="Site rebuild $(date)"
 git add .
 git commit -m "$MESSAGE"
 git push -u origin master
-# Rscript blogdownbuild.R
+Rscript blogdownbuild.R
 cd public
 pwd
 git add .
