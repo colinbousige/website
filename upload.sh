@@ -8,12 +8,12 @@ MESSAGE="Site rebuild $(date)"
 
 git add .
 git commit -m "$MESSAGE"
-git push --force -u origin master
+git push -u origin master
 Rscript blogdownbuild.R
 cd public
 pwd
 git add .
 git commit -m "$MESSAGE"
 git pull
-git push --force -u origin master
+git push -u origin master
 
